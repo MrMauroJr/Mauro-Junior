@@ -1,0 +1,305 @@
+:root{
+    --color-white: #ffffff;
+    --color-white2: rgb(203, 203, 203);
+    --color-dark1: #272727;
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-purple: #b040ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.imagem {
+    position: fixed;
+    width: 100%;
+    background: url(/index_dark/images/1_moon_mood.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+}
+a:link {
+    color: var(--color-white2);
+}
+
+a:visited {
+    color: var(--color-white2);
+}
+
+.header{
+    position: fixed;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    top:7%;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    z-index: 4;
+}
+
+.tela {
+    border: 5px solid var(--color-white2);
+    border-radius: 10px;
+    height: 100px;
+    width: 144px;
+    position: absolute;
+    left: 4%;
+    top: 1%;
+    z-index: 2;
+}
+
+.nome {
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--color-white2);
+    position: absolute;
+    left: 5%;
+    top: 2.5%;
+    z-index: 2;
+}
+
+.cursor {
+    -webkit-animation: cursor .75s linear infinite;
+    -moz-animation: cursor .75s linear infinite;
+    -ms-animation: cursor .75s linear infinite;
+    -o-animation: cursor .75s linear infinite;
+    animation: cursor .75s linear infinite;
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    left: 11%;
+    top: 2.5%;
+    color: var(--color-white2);
+    z-index: 2;
+}
+
+.trapezio {
+    border-bottom: 70px solid var(--color-white2);
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-radius: 10px;
+    height: 0;
+    width: 200px;
+    position: absolute;
+    left: 2.1%;
+    top: 13%;
+    z-index: 2;
+}
+
+.texto {
+    position: absolute;
+    top: 20%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
+.content1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    bottom: 100%;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+    overflow-x: hidden;
+}
+
+.content2 {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    height: 100%;
+    width: 100%;
+    bottom: 0%;
+    padding: 25px 10px;
+    background-color: #928CC3;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.content2_border {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    border: 5px solid var(--color-dark2);
+    border-radius: 10px;
+    height: 1px;
+    width: 95%;
+    margin: 5% 2.5%;
+    background-color: #928CC3;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.content3 {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    height: 600px;
+    width: 100%;
+    bottom: 0%;
+    padding: 25px 10px;;
+    background-color: #928CC3;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.content3_1 {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    border: 5px solid var(--color-dark2);
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    left: 3%;
+    top: 100px;
+    padding: 25px 10px;
+    background-color: #928CC3;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.content3_2 {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    border: 5px solid var(--color-dark2);
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    left: 28%;
+    top: -200px;
+    padding: 25px 10px;
+    background-color: #928CC3;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.content3_3 {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    border: 5px solid var(--color-dark2);
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    left: 53%;
+    top: -500px;
+    padding: 25px 10px;
+    background-color: #928CC3;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.content3_4 {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    border: 5px solid var(--color-dark2);
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    left: 77%;
+    top: -800px;
+    padding: 25px 10px;
+    background-color: #928CC3;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.content3_border {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    border: 5px solid var(--color-dark2);
+    border-radius: 10px;
+    height: 1px;
+    width: 95%;
+    bottom: 0%;
+    margin: 5% 2.5%;
+    background-color: #928CC3;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.content4 {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    height: 100%;
+    width: 100%;
+    bottom: 0%;
+    padding: 25px 10px;
+    background-color: #928CC3;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.content4_border {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    border: 5px solid var(--color-dark2);
+    border-radius: 10px;
+    height: 1px;
+    width: 95%;
+    margin: 5% 2.5%;
+    background-color: #928CC3;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.rodape {
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    height: 100%;
+    width: 100%;
+    bottom: 0%;
+    padding: 25px 10px;
+    background-color: #928CC3;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+    overflow: hidden;
+}
+
+@keyframes cursor {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 0; }
+} 
